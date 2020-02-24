@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -65,7 +66,32 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
+header{
+    display:flex;
+    background-color: white;
+    color: black;
+    margin-bottom: 27px;
+}
+header img{
+    width: 20%;
+}
+header nav{
+    display: flex;
+    width: 75%
+}
+header nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 25%;
+    padding-top: 27px;
+    text-align: center;
+    justify-content: space-around;
+}
+.page-break{
+    display: block;
+    margin-bottom: 15px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -98,7 +124,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
@@ -110,6 +136,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .one{
+    background-color: teal;
+}
+.middle-content .boxes .two{
+    background-color: gold;
+}
+.middle-content .boxes .three{
+    background-color: cadetblue;
+}
+.middle-content .boxes .four{
+    background-color: coral;
+}
+.middle-content .boxes .five{
+    background-color: crimson;
+}
+.middle-content .boxes .six{
+    background-color: forestgreen;
+}
+.middle-content .boxes .seven{
+    background-color: darkorchid;
+}
+.middle-content .boxes .eight{
+    background-color: hotpink;
+}
+.middle-content .boxes .nine{
+    background-color: indigo;
+}
+.middle-content .boxes .ten{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
