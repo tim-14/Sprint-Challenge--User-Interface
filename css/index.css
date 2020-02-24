@@ -201,3 +201,8 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-break{
+    display:block;
+    width: 100%;
+}
